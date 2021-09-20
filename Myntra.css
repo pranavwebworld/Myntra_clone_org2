@@ -1,0 +1,589 @@
+*{
+
+/* box-sizing: border-box; */
+
+margin: 0;
+
+padding: 0%;
+
+
+
+
+}
+
+body{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav_container{
+ box-shadow: 0 2px 12px 0 rgb(0 0 0 / 4%);
+ 
+position: fixed;
+z-index:10;
+background-color: #fff;
+height: 80px;
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+object-fit: contain;
+
+}
+
+
+
+
+
+
+
+.flex{
+
+
+
+display: flex;
+flex-direction: row;
+
+
+}
+
+
+
+.ul li{
+
+font-weight: 650;
+color: #282c3f;    
+letter-spacing: .3px;
+font-size: 13px;
+
+display: flex;
+
+margin: 5px;
+
+
+display: inline-block;
+
+padding-right: 10px;
+
+padding: 10px 10px;
+
+list-style: none;
+
+}
+
+
+
+.nav_headingsright{
+
+
+    margin-left: 10pxpx;
+
+    display: flex;
+
+    
+    display: inline-block;
+    
+ 
+    
+    padding: 10px 10px;
+    
+    list-style: none;
+
+  
+
+}
+
+
+.myntra_logo
+{
+
+margin-left: 50px;
+
+margin-right: 50px;
+
+
+
+}
+
+.searchbar{
+
+   
+   
+    font-weight: 500;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 500px;
+    color: #696e79;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+
+    border-radius: 5px;
+
+
+}
+
+
+body{
+
+
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    
+}
+
+
+.ul input
+
+{
+
+border: none;
+font-size: 5px;
+
+outline: none;
+
+ margin-left: 50px;
+
+ font-size: 12px;
+
+
+}
+
+.ul
+{
+
+justify-content: space-between;
+
+width: 450px;
+
+
+}
+
+.searchbox{
+
+    display: flex;
+    align-items: center;
+
+    object-fit:contain;
+    width:500px;
+    background-color:#f5f5f6;
+
+    border-radius: 8px;
+    margin-left:50px ;
+
+
+}
+
+
+.searchicon{
+
+background-color: #696e79;
+
+color:grey;
+
+
+
+}
+
+.Profile_title
+{
+    color: #000;
+    margin-left: -5px;
+    position: absolute;
+
+
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 6px;
+
+
+
+
+}
+
+
+.personwithTitile{
+
+display: flex;
+
+flex-direction:column;
+height: 10px;
+
+
+padding-bottom: 43px;
+}
+
+
+/* container */
+
+.Slidercontainer
+{
+
+position: relative;
+/* background-color: #000; */
+width: 100%;
+height: 100vh;
+/* overflow: hidden; */
+  
+
+
+}
+
+.Slidercontainer  .slider
+{
+
+position: absolute;
+
+top: 0;
+left: 0;
+width: 500%;
+height: 100vh; 
+float:left;
+
+animation: animate 10s linear infinite;
+
+}
+
+.Slidercontainer .slider .slide
+
+{
+
+width: 20%;
+height: 60%;
+float: left;
+
+}
+
+.Slidercontainer .slider .slide.slide1
+{
+
+
+background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/9/17/ecb6fba7-eb89-4259-a039-ff7547f1f1601631902703794-main-banner-1-DK.jpg);
+
+
+background-size: cover;
+background-position: center;
+
+
+}
+
+.Slidercontainer .slider .slide.slide2
+{
+
+
+background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/9/16/b46f4fec-c7f4-445c-8ed3-9be64cecf02a1631802152070-Weekend-sale_DK.jpg);
+
+
+background-size: cover;
+background-position: center;
+
+
+}
+
+.Slidercontainer .slider .slide.slide3
+{
+
+
+background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/9/16/ef78ea78-584e-440e-ab29-cae7f5e01a911631767934490-Main-Banner_DK_Celeb.jpg);
+
+
+background-size: cover;
+background-position: center;
+
+
+}
+
+.Slidercontainer .slider .slide.slide4
+
+
+{
+
+
+background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/9/14/bc55d378-bd56-46c3-ad4e-c178af604f571631633421839-Dressberry_Desk--2-.jpg);
+
+
+background-size: cover;
+background-position: center;
+
+
+
+
+}
+
+
+ @keyframes animate
+ {
+
+0%
+{
+
+left: 0;
+
+}
+
+20%
+
+{
+
+    left: 0;
+
+
+}
+25%
+{
+
+ left: -100%;
+
+
+}
+45%
+
+
+{
+
+left: -100%;
+
+
+}
+50%
+{
+
+left: -200;
+
+
+
+}
+
+70%
+{
+
+left: -200%;
+
+
+
+}
+75%
+{
+
+left: -300%;
+
+
+
+}
+
+80%
+{ 
+
+left: -300%;
+    
+    
+    
+}
+
+85%
+{ 
+
+left: -400%;
+    
+    
+    
+}
+
+100%
+{ 
+
+left: -400%;
+    
+    
+    
+}
+
+
+/* { 
+
+left: -500%;
+    
+    
+    
+} */
+
+
+
+ }
+
+
+
+
+ .deals{
+
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 500
+ }
+
+
+ 
+ /* .display_Deals{
+
+object-fit: contain;
+
+    display: flex;
+
+  width: 100%;
+ }
+
+
+ .display_Deals img1{
+background-color: #000;
+
+
+   background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2021/9/18/4888f450-d10a-47f3-98dd-259ad8acf8a91631962232852-BUY-MORE--SAVE-BIG.jpg);
+
+    
+ }
+ */
+
+
+ .column {
+	float: left;
+	width: 16%;
+	padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+   
+}
+
+.row{
+
+
+  
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/* dropdown */
+
+
+
+
+.sub_Menu1
+{
+
+display: none; 
+
+opacity: 0;
+
+transition: 0.5s;
+
+
+}
+
+
+
+
+.nav_headingsleft ul li:hover .sub_Menu1
+{
+
+
+
+transition: all 0.5s  ;
+
+opacity: 1;
+
+display: block;
+
+
+position: absolute;
+
+background-color:rgb(255, 255, 255) ;
+
+margin-top : 15px;
+
+margin-left: -15px;
+
+
+}
+
+
+.nav_headingsleft ul li:hover .sub_Menu1 ul{
+
+
+
+
+margin: 15px;
+
+
+}
+
+
+.nav_headingsleft ul li:hover .sub_Menu1 ul li 
+
+
+{
+
+    
+padding: 5px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: space-between;
+
+width: 150px;
+padding: 5px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+
+
+
+
+}
+
+.nav_headingsleft ul li:hover .sub_Menu1 ul li a{
+
+
+
+    text-decoration: none;
+    color: #282c3f;
+    line-height: 23px!important;
+    font-weight: 400;
+
+
+
+
+}
+
+
